@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4ce2ec;
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    color: #f5f2f2;
+    font-size: 24px;
+}
+
+h2 {
+    color: #222;
+}
+
+section {
+    background: white;
+    margin: 10px auto;  /* Mobile ke liye margin reduce */
+    padding: 20px;
+    width: 90%; /* Mobile Friendly */
+    max-width: 600px; /* Large Screens ke liye limit */
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Skills Section */
+#skills {
+    background: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.skill {
+    margin-bottom: 10px;
+}
+
+/* Responsive Progress Bars */
+.progress-bar {
+    width: 100%;
+    background: #ddd;
+    height: 8px;
+    border-radius: 5px;
+}
+
+.progress {
+    height: 8px;
+    border-radius: 5px;
+}
+
+/* Skill Colors */
+.html { width: 90%; background: #e34c26; }
+.css { width: 80%; background: #264de4; }
+.js { width: 70%; background: #f7df1e; }
+.c { width: 85%; background: #2965f1; }
+.cpp { width: 80%; background: #00599c; }
+.java { width: 75%; background: #f89820; }
+.sql { width: 75%; background: #00758f; }
+
+/* ✅ Responsive Design Fix */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    section {
+        width: 95%; /* Chhoti screen pe aur flexible */
+        padding: 15px;
+    }
+
+    .progress-bar {
+        height: 6px; /* Mobile ke liye thoda chhota */
+    }
+}

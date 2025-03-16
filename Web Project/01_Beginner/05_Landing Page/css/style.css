@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: url('../images/hero-image.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 100px 20px;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+header p {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+#services {
+    padding: 40px;
+    background-color: white;
+}
+
+.service {
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 10px;
+    background: #fff;
+}
+
+#contact {
+    padding: 30px;
+    background: #007bff;
+    color: white;
+}
+
+footer {
+    padding: 10px;
+    background: black;
+    color: white;
+}

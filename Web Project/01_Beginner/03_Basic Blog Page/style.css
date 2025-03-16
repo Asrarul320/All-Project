@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Navigation Bar */
+nav {
+    background: #333;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 15px;
+}
+
+nav ul li a:hover {
+    background: #575757;
+    border-radius: 5px;
+}
+
+/* Header */
+header {
+    background-color: #4caf50;
+    color: white;
+    padding: 50px 20px;
+    margin-top: 50px;
+}
+
+/* Blog Post */
+.blog-post {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.blog-post img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+}
+
+/* Social Icons */
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons i {
+    font-size: 20px;
+    color: #4caf50;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.social-icons i:hover {
+    color: #2e7d32;
+}
+
+/* Author Section */
+.author {
+    background: white;
+    padding: 20px;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.author img {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Comments Section */
+.comments {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+    width: 90%;
+    height: 80px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Button */
+button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: none;
+    background: #4caf50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #388e3c;
+}
+
+/* Footer */
+footer {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}

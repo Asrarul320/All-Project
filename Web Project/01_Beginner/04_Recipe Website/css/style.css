@@ -1,0 +1,269 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #ff6600;
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#recipes {
+    padding: 20px;
+}
+
+.recipe {
+    background: white;
+    margin: 20px auto;
+    padding: 15px;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.recipe img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+}
+
+.recipe h3 {
+    color: #ff6600;
+}
+
+.recipe a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #ff6600;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.recipe a:hover {
+    background-color: #cc5500;
+}
+
+#contact {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact a {
+    text-decoration: none;
+    color: #ff6600;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    color: #cc5500;
+}
+
+
+.recipe-detail {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.recipe-detail img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 5px;
+}
+
+.recipe-detail h2 {
+    color: #ff6600;
+}
+
+.recipe-detail ul, .recipe-detail ol {
+    margin-left: 20px;
+}
+
+.back-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #ff6600;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back-btn:hover {
+    background-color: #cc5500;
+}
+
+
+.recipe-details {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.recipe-details img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.recipe-details h2 {
+    color: #ff6600;
+    margin: 10px 0;
+}
+
+.recipe-details ul, .recipe-details ol {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #ff6600;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+.recipe-details {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.recipe-details img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.recipe-details h2 {
+    color: #ff6600;
+    margin: 10px 0;
+}
+
+.recipe-details ul, .recipe-details ol {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #ff6600;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+.recipe-details {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.recipe-details img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.recipe-details h2 {
+    color: #008000;
+    margin: 10px 0;
+}
+
+.recipe-details ul, .recipe-details ol {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #008000;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+
+.recipe-details {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.recipe-details img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.recipe-details h2 {
+    color: #D2691E; /* Brownish-orange color for sweet dishes */
+    margin: 10px 0;
+}
+
+.recipe-details ul, .recipe-details ol {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #D2691E;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
